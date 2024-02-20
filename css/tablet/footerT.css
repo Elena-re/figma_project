@@ -1,0 +1,256 @@
+.blog {
+    width: 100%;
+    position: relative;
+
+}
+
+.blog .center {
+    margin: 0 auto;
+    display: flex;
+    width: 89%;
+    column-gap: 46px;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding-top: 100px
+}
+
+.blog .text {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.blog .text h2 {
+    color: #282938;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.blog .alot {
+    margin-top: 20px;
+    width: 405px;
+    height: 609px;
+}
+
+.blog .alot img {
+    width: 405px;
+    height: 285px;
+    margin-bottom: 40px;
+}
+
+.blog .alot p:nth-of-type(1) {
+    color: #282938;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    margin-bottom: 16px;
+    opacity: 0.7;
+}
+
+.blog .alot p:nth-of-type(2) {
+    color: #282938;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.blog .alot p:nth-of-type(3) {
+    color: #282938;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    opacity: 0.7;
+    line-height: 28px;
+    margin-bottom: 32px
+}
+
+.blog .alot a {
+    color: #282938;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    text-decoration: none;
+    text-transform: capitalize;
+
+}
+
+footer {
+    width: 100%;
+    background: #2a2d77d2;
+    padding: 20px 0 40px 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+footer .center {
+    margin: 0 auto;
+    display: flex;
+    width: 89%;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding-top: 100px
+}
+
+footer .left {
+    width: 80%;
+}
+
+footer .left>p {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    opacity: 0.8;
+    margin-bottom: 60px;
+    line-height: 28px;
+}
+
+footer .left .yellow {
+    width: auto;
+    background-color: #80c6fc;
+    border-radius: 50px;
+    padding: 18px 0 17px 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+footer .left .yellow .email {
+    width: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 20px;
+
+
+}
+
+footer .left .yellow .email p {
+    color: #0f156f;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    opacity: 1;
+    line-height: 32px;
+}
+
+footer .left .yellow .email a {
+    color: #0f1460;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    text-decoration: none;
+    opacity: 0.8;
+    text-transform: capitalize;
+
+}
+
+footer .left .yellow .call {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 20px;
+}
+
+
+footer .left .yellow .call p {
+    color: #0b1059;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    opacity: 1;
+
+}
+
+footer .left .yellow .call a {
+    color: #10166b;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    opacity: 0.8;
+    text-decoration: none;
+    text-transform: capitalize;
+
+}
+
+footer .right {
+    height: auto;
+    width: 80%;
+}
+
+footer .right h2 {
+    margin-bottom: 14px;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 64px;
+}
+
+footer .right p {
+    color: #F4F6FC;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    width: 399px;
+    line-height: 28px;
+    opacity: 0.8;
+    margin-bottom: 28px;
+}
+
+footer .right .svg {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    column-gap: 26px;
+
+}
+
+footer .footerlink {
+    width: 80%;
+    height: 92px;
+    padding: 32px 0 32px 0;
+    display: flex;
+    column-gap: 20px;
+    opacity: 0.7;
+    flex-flow: row wrap;
+}
+
+footer .footerlink p {
+    color: whitesmoke;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+footer .footerlink a {
+    color: whitesmoke;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    text-decoration: none;
+    text-transform: capitalize;
+}

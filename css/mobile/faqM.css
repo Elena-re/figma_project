@@ -1,0 +1,267 @@
+.faq {
+    width: 100%;
+    padding-top: 128px;
+    padding-bottom: 128px;
+}
+
+.faq .center {
+    width: 89%;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+.faq .hard {
+    width: 80%;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+
+
+}
+
+.faq .hard .heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.faq .hard .heading h3 {
+    color: #282938;
+    font-family: Poppins;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    margin-bottom: 16px;
+}
+
+.faq .hard .heading a {
+    color: #2405F2;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.faq .hard .questions {
+    width: 89%;
+    height: inherit;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    /* background-color: beige; */
+
+}
+
+.faq .hard .questions img {
+    width: 100%;
+    height: 3px;
+
+}
+
+
+.faq .hard .questions .place {
+    width: 100%;
+    /* background-color: rgb(195, 208, 232); */
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.faq .hard .questions .place label {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 29px;
+    font-family: poppins;
+    margin-bottom: 10px;
+    font-weight: 300;
+}
+
+.faq .hard .questions .place label span {
+    transform: rotate(90deg);
+    font-family: poppins;
+    font-size: 20px;
+}
+
+.faq .hard .questions .place label+input[type="radio"] {
+    display: none;
+}
+
+.faq .hard .questions .place p {
+    color: #282938;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    opacity: 0.7;
+}
+
+.faq .hard .questions .place .content {
+    max-height: 0;
+    overflow: hidden;
+    transition: 300ms;
+}
+
+.faq .hard .questions .place label+input[type="radio"]:checked+.content {
+    max-height: 400px;
+}
+
+.build {
+    width: 100%;
+}
+
+.build .center {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.build .picture {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+
+}
+
+.build .picture .left {
+    width: 0%;
+    display: flex;
+    flex-flow: row wrap;
+    background-repeat: no-repeat;
+}
+
+.build .picture .left img {
+    width: 0%;
+    object-fit: cover;
+
+}
+
+.build .picture .left h1 {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 54px;
+    width: 300px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 74px;
+    /* position: absolute;
+    left: 96px;
+    top: 96px; */
+}
+
+.build .picture .left p {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    /* position: absolute;
+    left: 96px;
+    top: 345px;
+    right: 96px; */
+}
+
+.build .picture .right {
+    width: 89%;
+    border-radius: 30px;
+    background: #434582;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.build .picture .right h5 {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 48px;
+    margin-bottom: 16px;
+}
+
+.build .picture .right p {
+    color: #F4F6FC;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    margin-bottom: 40px;
+    width: 400px;
+    line-height: 28px;
+
+}
+
+.build .picture .right input {
+    width: 50%;
+    height: 64px;
+    flex-shrink: 0;
+    padding-left: 32px;
+    border-radius: 8px;
+    border: 1.5px solid rgba(255, 255, 255, 0.05);
+    background-color: #343679;
+    margin-bottom: 16px;
+
+}
+
+.build .picture .right input::placeholder {
+    color: var(--Grey, #F4F6FC);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    opacity: 0.5;
+
+}
+
+.build .picture .right input:nth-of-type(4) {
+    display: flex;
+    width: 50%;
+    height: 62px;
+    padding: 15px 51px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 41px;
+    background-color: #a3dfeb;
+    margin-top: 23px;
+    color: #1B1C2B;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+
+}
+
+.build .picture .right a {
+    color: var(--White, #FFF);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    margin-top: 8px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.build .picture .right a span {
+    width: 24px;
+    margin-left: 16px;
+}

@@ -1,0 +1,289 @@
+header {
+    width: 100%;
+    background: #1C1E53;
+}
+
+header .menu {
+    width: 100%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+header .menu nav {
+    width: 100%;
+    height: inherit;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+header .menu nav .logo {
+    width: auto;
+}
+
+header .menu nav .navitems {
+    width: auto;
+    height: inherit;
+    display: flex;
+    flex-flow: row wrap;
+    margin-left: 437px;
+    align-items: center;
+    column-gap: 34px;
+
+}
+
+header .menu nav .navitems div {
+    width: auto;
+    transition: 300ms;
+}
+
+.active {
+    color: #ffffff !important;
+}
+
+.space {
+    margin-left: 30px;
+    width: 185px;
+    height: 60px;
+    border-radius: 41px;
+    border: 2px solid rgba(244, 246, 252, 0.20);
+    padding-left: 48px;
+    padding-right: 48px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    color: white !important;
+
+}
+
+header .menu nav .navitems div a {
+    color: #BBBBCB;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    text-decoration: none;
+    text-transform: capitalize;
+    line-height: 28px;
+    transition: 300ms;
+}
+
+header .menu nav .navitems div:hover .space {
+    background-color: #7578cb70;
+    border-radius: 50px;
+}
+
+header .menu nav .navitems div:hover a {
+    color: #ffff79;
+}
+
+.active:hover {
+    color: #ffff79 !important;
+
+}
+
+.about {
+    width: 100%;
+    height: auto;
+    padding-top: 128px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.about .first {
+    width: 1280px;
+    display: flex;
+    flex-flow: row wrap;
+    column-gap: 138px;
+    margin-bottom: 128px;
+}
+
+.about .first .left {
+    width: 595px;
+    height: auto;
+
+}
+
+.about .first .left p:nth-of-type(1) {
+    color: #282938;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    margin-bottom: 8px;
+    line-height: 32px;
+}
+
+.about .first .left p:nth-of-type(2) {
+    color: #282938;
+    text-align: justify;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    opacity: 0.7;
+    width: 484px;
+    line-height: 28px;
+}
+
+.about .first .left h1 {
+    color: #282938;
+    font-family: Poppins;
+    font-size: 52px;
+    font-style: normal;
+    width: 595px;
+    margin-bottom: 31px;
+    font-weight: 600;
+}
+
+.about .first .right img {
+    width: 547px;
+    height: 336px;
+}
+
+.about .second {
+    width: 1280px;
+    display: flex;
+    margin-bottom: 128px;
+    flex-flow: column;
+}
+
+.about .second .top {
+    width: 100%;
+    height: 376px;
+    display: flex;
+    flex-flow: row wrap;
+    column-gap: 61px;
+    background: #F4F5F5;
+    padding: 80px 109px 80px 80px;
+}
+
+.about .second .top .start {
+    width: 515px;
+}
+
+.about .second .top .start a {
+    color: #282938;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    margin-bottom: 4px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.about .second .top .start h3 {
+    color: #282938;
+    font-family: Poppins;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    margin-bottom: 16px;
+}
+
+.about .second .top .start p {
+    color: #282938;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    opacity: 0.7;
+    line-height: 28px;
+}
+
+.about .second .top .start2 {
+    width: 515px;
+}
+
+
+.about .second .top .start2 h3 {
+    color: #282938;
+    font-family: Poppins;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    margin-top: 32px;
+    margin-bottom: 16px;
+}
+
+.about .second .top .start2 p {
+    color: #282938;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    opacity: 0.7;
+    line-height: 28px;
+}
+
+.about .second .bottom {
+    width: 100%;
+    height: 340px;
+}
+
+.about .second .bottom img {
+    width: 100%;
+    height: inherit;
+    object-fit: cover;
+
+}
+
+.about .third {
+    width: 1280px;
+    margin-bottom: 128px;
+    height: 268px;
+}
+
+.about .third h2 {
+    color: #282938;
+    font-family: Poppins;
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 64px;
+}
+
+.about .third .cards {
+    width: 1280px;
+    height: 156px;
+    display: flex;
+    column-gap: 32px;
+    flex-flow: row wrap;
+}
+
+.about .third .cards .four {
+    width: 296px;
+    height: 156px;
+}
+
+.about .third .cards .four img {
+    width: 272px;
+    height: 24px;
+    margin-bottom: 32px;
+}
+
+.about .third .cards .four h6 {
+    color: #282938;
+    font-family: Poppins;
+    font-size: 24px;
+    margin-bottom: 8px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+}
+
+.about .third .cards .four p {
+    color: #282938;
+    font-family: Poppins;
+    opacity: 0.7;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}

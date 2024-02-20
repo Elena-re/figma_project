@@ -1,0 +1,166 @@
+header {
+    width: 100%;
+    padding-bottom: 85px;
+    background: #1C1E53;
+
+}
+
+header .menu {
+    width: 100%;
+    height: 92px;
+}
+
+header .menu nav {
+    width: 100%;
+    height: inherit;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding-top: 30px;
+
+}
+
+header .menu nav .logo {
+    width: auto;
+}
+
+header .menu nav .navitems {
+    width: auto;
+    height: inherit;
+    display: flex;
+    flex-flow: row wrap;
+    margin-left: 430px;
+    column-gap: 34px;
+
+}
+
+header .menu nav .navitems div {
+    width: auto;
+    transition: 300ms;
+}
+
+.active {
+    color: #ffffff !important;
+}
+
+.space {
+    margin-left: 48px;
+    width: 185px;
+    height: 60px;
+    border-radius: 41px;
+    border: 2px solid rgba(244, 246, 252, 0.20);
+    padding-left: 48px;
+    padding-right: 48px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    color: white !important;
+
+}
+
+header .menu nav .navitems div a {
+    color: #BBBBCB;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    text-decoration: none;
+    text-transform: capitalize;
+    line-height: 28px;
+    transition: 300ms;
+}
+
+header .menu nav .navitems div:hover .space {
+    background-color: #7578cb70;
+    border-radius: 50px;
+}
+
+header .menu nav .navitems div:hover a {
+    color: #ffff79;
+}
+
+.active:hover {
+    color: #ffff79 !important;
+
+}
+
+header .contain {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    column-gap: 82px;
+
+}
+
+header .contain .left {
+    width: 580px;
+    height: 414px;
+    margin-top: 126px;
+}
+
+header .contain .left h1 {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 74px;
+    margin-bottom: 24px;
+}
+
+header .contain .left p {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 38px;
+    width: 370px;
+    opacity: 0.7;
+    margin-bottom: 48px;
+}
+
+header .contain .left a {
+    padding: 16px 56px;
+    border-radius: 41px;
+    background: #FCD980;
+    color: #1B1C2B;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+header .contain .left span:nth-of-type(1) {
+    margin-left: 40px;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+header .contain .left span:nth-of-type(2) {
+    margin-left: 16px;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+header .contain .right {
+    width: auto;
+    margin-top: 149px;
+
+}
+
+header .contain .right img {
+    width: inherit;
+    object-fit: cover;
+}

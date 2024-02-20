@@ -1,0 +1,258 @@
+.work {
+   width: 100%;
+   padding: 128px 0 120px 0;
+   background: #F4F6FC;
+   display: flex;
+   flex-flow: row wrap;
+   justify-content: center;
+   column-gap: 142px;
+   flex-flow: row wrap;
+
+
+}
+
+.work .left {
+   width: 500px;
+
+}
+
+.work .left h2 {
+   color: #282938;
+   font-family: Poppins;
+   font-size: 48px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: 64px;
+   margin-bottom: 20px;
+
+}
+
+.work .left p {
+   color: #282938;
+   font-family: Poppins;
+   font-size: 16px;
+   font-style: normal;
+   width: 400px;
+   font-weight: 400;
+   line-height: 28px;
+   opacity: 0.7;
+   margin-bottom: 20px;
+}
+
+.work .left a {
+   color: #2405F2;
+   font-family: Poppins;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 500;
+   text-decoration: none;
+   text-transform: capitalize;
+}
+
+.work .left a span {
+   width: 24px;
+   margin-left: 8px;
+}
+
+
+.work .right {
+   width: 636px;
+   height: 405px;
+   display: grid;
+   grid-template-columns: repeat(2, 328px);
+   grid-template-rows: repeat(2, 178);
+   row-gap: 48px;
+   column-gap: 25px;
+}
+
+/* .work .right .four{
+} */
+
+.work .right .four h5 {
+   color: #282938;
+   font-family: Poppins;
+   font-size: 32px;
+   font-style: normal;
+   font-weight: 500;
+   margin-bottom: 8px;
+   margin-top: 16px;
+   line-height: 48px;
+}
+
+.work .right .four p {
+   color: #282938;
+   font-family: Poppins;
+   font-size: 16px;
+   font-style: normal;
+   width: 303px;
+   font-weight: 400;
+   line-height: 28px;
+   opacity: 0.7;
+}
+
+.project {
+   width: 100%;
+   height: 984px;
+   padding: 128px 0 128px 0;
+   display: flex;
+   justify-content: center;
+   flex-flow: row wrap;
+
+
+}
+
+.project h2 {
+   color: #282938;
+   font-family: Poppins;
+   font-size: 48px;
+   width: 467px;
+   font-style: normal;
+   font-weight: 600;
+   margin-right: 690px;
+   text-decoration: none;
+   text-transform: capitalize;
+   line-height: 28px;
+   margin-bottom: 64px;
+
+}
+
+.project a {
+   color: #282938;
+   font-family: Poppins;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 500;
+   text-decoration: none;
+   text-transform: capitalize;
+   line-height: 30px;
+
+}
+
+.project a span {
+   width: 24px;
+   margin-left: 16px;
+}
+
+.project .left {
+   width: 843px;
+   height: 600px;
+   background-color: #d6d6d6;
+   margin-right: 32px;
+   position: relative;
+   overflow: hidden;
+
+}
+
+.project .left img {
+   object-fit: cover;
+   width: inherit;
+   height: inherit;
+}
+
+.project .left .cover {
+   width: 396px;
+   height: 600px;
+   background: linear-gradient(329deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);
+   position: absolute;
+   padding: 312px 35px 76px 48px;
+   left: -396px;
+   transition: 400ms;
+}
+
+.project .left:hover .cover {
+   top: 0;
+   left: 0;
+}
+
+.project .left .cover p:nth-of-type(1) {
+   color: #FFF;
+   font-family: Poppins;
+   font-size: 24px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: 36px;
+   margin-bottom: 16px;
+
+
+}
+
+.project .left .cover p:nth-of-type(2) {
+   color: #FFF;
+   font-family: Poppins;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 28px;
+   margin-bottom: 40px;
+   opacity: 0.7;
+
+
+}
+
+.project .left .cover a {
+   color: #FCD980;
+   font-family: Poppins;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 28px;
+}
+
+.project .right .top {
+   width: 405px;
+   margin-bottom: 32px;
+   height: 284px;
+   position: relative;
+   overflow: hidden;
+
+}
+
+.project .right .top img {
+   object-fit: cover;
+   width: inherit;
+   height: inherit;
+}
+
+.project .right .top .cover {
+   width: 405px;
+   background: linear-gradient(329deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);
+   height: 284px;
+   position: absolute;
+   padding: 129px 36px 45px 56px;
+   top: -284px;
+   transition: 400ms;
+}
+
+.project .right .top:hover .cover {
+   top: 0;
+}
+
+.project .right .top .cover p {
+   color: #FFF;
+   font-family: Poppins;
+   font-size: 24px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: 36px;
+   margin-bottom: 10px;
+   width: 313px;
+}
+
+.project .right .top .cover a {
+   color: #FCD980;
+   font-family: Poppins;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 28px;
+
+}
+
+
+.project .right .bottom {
+   background-color: #282938;
+   width: 405px;
+   height: 284px;
+
+
+}

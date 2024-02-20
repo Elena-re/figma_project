@@ -1,0 +1,237 @@
+.our {
+    padding: 128px 0 128px 0;
+    width: 100%;
+    background-color: #EEF4FA;
+    display: flex;
+    flex-flow: column;
+    row-gap: 96px;
+}
+
+.our .top {
+    width: 100%;
+    height: 336px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    column-gap: 140px;
+}
+
+.our .bottom {
+    width: 100%;
+    height: 336px;
+    display: flex;
+    flex-flow: row wrap;
+    column-gap: 180px;
+    justify-content: center;
+
+}
+
+.our .top .start {
+    width: 623px;
+    margin-top: 54px;
+
+}
+
+.our .bottom .start {
+    width: 623px;
+    margin-top: 54px;
+
+}
+
+.our .top .start a {
+    color: #282938;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    text-decoration: none;
+    margin-bottom: 16px;
+    text-transform: capitalize;
+}
+
+.our .bottom .start a {
+    color: #282938;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    text-decoration: none;
+    margin-bottom: 16px;
+    text-transform: capitalize;
+}
+
+.our .top .start h3 {
+    color: #282938;
+    font-family: Poppins;
+    font-size: 38px;
+    margin-bottom: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+}
+
+.our .bottom .start h3 {
+    color: #282938;
+    font-family: Poppins;
+    font-size: 38px;
+    margin-bottom: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+}
+
+.our .top .start p {
+    color: #282938;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    opacity: 0.7;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.our .bottom .start p {
+    color: #282938;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    opacity: 0.7;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+
+.our .top .end img {
+    width: 515px;
+    height: 336px;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+.our .bottom .end img {
+    width: 515px;
+    height: 336px;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+.benefit {
+    width: 1280px;
+    margin: 128px auto;
+    margin-bottom: 128px;
+    height: 624px;
+    display: flex;
+    flex-flow: column;
+    row-gap: 48px;
+}
+
+.benefit h2 {
+    color: #282938;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 64px;
+}
+
+.benefit .top {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-flow: row wrap;
+    column-gap: 32px;
+}
+
+.benefit .top .triple {
+    width: 405px;
+    padding: 50px 32px 48px 48px;
+    height: 316px;
+    background-color: #F4F6FC;
+}
+
+.benefit .top .triple svg {
+    width: 32px;
+    height: 32px;
+}
+
+.benefit .top .triple p {
+    color: #282938;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    opacity: 0.7;
+}
+
+.benefit .top .triple h6 {
+    color: #282938;
+    font-family: Poppins;
+    margin-top: 28px;
+    margin-bottom: 12px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+}
+
+.benefit .bottom {
+    width: 100%;
+    height: 84px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.benefit .bottom img:nth-of-type(2) {
+    width: 1015px;
+    height: 32px;
+    margin-top: 28px;
+}
+
+.benefit .bottom img:nth-of-type(1) {
+    width: 170px;
+    height: 84px;
+    margin-right: 89px;
+}
+
+.team {
+    padding: 128px 0 128px 0;
+    height: auto;
+    width: 100%;
+    background-color: #F4F6FC;
+}
+
+.team .wow {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    column-gap: 32px;
+}
+
+.team .wow .people {
+    width: 296px;
+    height: 344px;
+    background-color: #FFFFFF;
+    position: relative;
+}
+
+.team .wow .people:nth-of-type(1) img:nth-of-type(1) {
+    position: absolute;
+    top: 48px;
+    left: 64px;
+}
+
+.team h2 {
+    color: #282938;
+    margin: 0 auto 48px;
+    width: 1280px;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 64px;
+}
